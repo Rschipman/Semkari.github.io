@@ -98,13 +98,13 @@ h2 {
 
 .glitch.active::before {
   color: var(--accent);
-  animation: glitch 0.4s infinite;
+  animation: glitch 0.7s infinite;
   opacity: 1;
 }
 
 .glitch.active::after {
   color: white;
-  animation: glitch 0.6s infinite reverse;
+  animation: glitch 1.2s infinite reverse;
   opacity: 1;
 }
 
