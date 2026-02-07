@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SEMKARI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<!-- Background Video -->
+<video class="bg-video" autoplay muted loop playsinline>
+  <source src="assets/bg-video.mp4" type="video/mp4">
+</video>
+
+<!-- Music -->
+<audio id="bg-music" src="assets/song.mp3" loop></audio>
+
+<div class="overlay">
+
+<header>
+  <h1>SEMKARI</h1>
+
+  <nav>
+    <a href="#about">ABOUT</a>
+    <a href="#music">MUSIC</a>
+    <a href="#tour">TOUR</a>
+    <a href="#merch">MERCH</a>
+    <a href="#fans">FANS</a>
+  </nav>
+
+  <div class="controls">
+    <button id="theme-toggle" class="icon-btn">◐</button>
+    <button id="music-toggle" class="icon-btn">▶</button>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="panel">
+  <h2 class="glitch" data-text="ABOUT">ABOUT</h2>
+  <p class="about-text">
+    SEMKARI an locally established and internationally up- and coming rapper. Brings his unique Charlestonian sound to the scene world wide. 
+Recently just back from a tour in japan. Check this page for updates on upcoming tour dates and album announcments.
+  </p>
+</section>
+
+<!-- MUSIC -->
+<section id="music" class="panel">
+  <h2 class="glitch" data-text="CURRENT ALBUM">CURRENT ALBUM</h2>
+
+  <div class="album">
+    <img src="assets/album.jpg" alt="Album Cover">
+    <div>
+      <p>OUT NOW ON ALL PLATFORMS</p>
+      <a class="btn" href="#" target="_blank">LISTEN</a>
+    </div>
+  </div>
+</section>
+
+<!-- TOUR -->
+<section id="tour" class="panel">
+  <h2 class="glitch" data-text="UPCOMING TOUR">UPCOMING TOUR</h2>
+
+  <ul class="tour-list">
+    <li><span>03.12</span> LOS ANGELES, CA</li>
+    <li><span>03.18</span> NEW YORK, NY</li>
+    <li><span>03.25</span> BERLIN, DE</li>
+  </ul>
+</section>
+
+<!-- MERCH -->
+<section id="merch" class="panel">
+  <h2 class="glitch" data-text="MERCH">MERCH</h2>
+
+  <div class="merch-grid">
+    <a href="https://store1.com" target="_blank" class="merch-item">
+      <img src="assets/merch/shirt.jpg">
+      <span>SHIRTS</span>
+    </a>
+
+    <a href="https://store2.com" target="_blank" class="merch-item">
+      <img src="assets/merch/hoodie.jpg">
+      <span>HOODIES</span>
+    </a>
+
+    <a href="https://store3.com" target="_blank" class="merch-item">
+      <img src="assets/merch/vinyl.jpg">
+      <span>VINYL</span>
+    </a>
+  </div>
+</section>
+
+<!-- FANS -->
+<section id="fans" class="panel">
+  <h2 class="glitch" data-text="FANS">FANS</h2>
+  <p>TAG <strong>#ARTISTNAME</strong></p>
+
+  <div class="fan-grid">
+    <img src="assets/fans/fan1.jpg">
+    <img src="assets/fans/fan2.jpg">
+    <img src="assets/fans/fan3.jpg">
+  </div>
+
+  <a class="btn" href="https://www.instagram.com/ARTISTHANDLE/" target="_blank">
+    SUBMIT YOUR PHOTO
+  </a>
+</section>
+
+<footer>
+  <p>© ARTIST NAME</p>
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
